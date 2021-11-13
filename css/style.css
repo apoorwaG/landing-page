@@ -147,5 +147,45 @@ img {
     display: flex;
     justify-content: flex-end;
     font-size: 20px;
+    font-style:normal;
+    font-weight: bold;
+}
+
+.final {
+    margin: 100px 20px;
+    padding: 50px;
+    display: flex;
+    max-width: 1000px;
+    background-color: #3882f6;
+    /* flex-direction: column; */
+    align-self: center;
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.final-text {
+    flex: 1 1 auto;
+    align-self: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.final-subtext {
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(212, 211, 211)
     
 }
+
+.final-button {
+    align-self: center;
+    padding: 20px 30px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
