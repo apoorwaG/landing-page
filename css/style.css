@@ -1,12 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
-.header,
+.header, 
 .footer {
     display: flex;
-    justify-content: space-around;
     background-color: #1F2937;
     align-items: center;
     color: white;
@@ -15,10 +15,12 @@ body {
 }
 
 .header {
+    justify-content: space-around;
     margin-top: -8px;
 }
 
 .footer {
+    justify-content: center;
     padding: 30px;
 }
 
@@ -52,6 +54,7 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
+    padding-bottom: 20px;
 }
 
 .left-hero {
